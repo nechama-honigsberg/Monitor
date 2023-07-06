@@ -1,0 +1,120 @@
+.all {
+    text-align: center;
+    color: midnightblue;
+}
+
+.plus-button {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: midnightblue;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.plus-button:hover {
+    background-color: #0056b3;
+}
+
+.below_div {
+    /* margin: 150px 20px 10px 30px; */
+    display: flex;
+
+}
+
+.id_area {
+    width: 20%;
+}
+
+.details_panel {
+    flex: 1;
+    height: 350px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-toggle {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: block;
+}
+
+
+
+.dropdown-options li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.label_input {
+    width: 90%;
+    background-color: rgb(203, 229, 238);
+    font-size: 20px;
+}
+
+.below_button {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: midnightblue;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.below_button:hover {
+    background-color: #0056b3;
+}
+
+.save_button {
+    background-color: red;
+}
+
+.response_labels {
+    width: 308px;
+    margin-left: -118px;
+    /* direction: rtl; */
+}
+
+
+.dropdown_labels select {
+    width: 308px;
+    height: 200px;
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+.selected{
+    color: red;
+    font-weight: 900;
+}
+
